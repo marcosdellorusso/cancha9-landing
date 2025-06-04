@@ -8,43 +8,46 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <img src="logo-cancha9.png" alt="Logo Cancha 9" class="logo"/>
-    <div class="header-text">
-      <h1>Cancha 9</h1>
-      <p>Jugá sin complicaciones</p>
+  <header class="hero">
+    <div class="overlay"></div>
+    <nav class="navbar">
+      <img src="logo-cancha9.png" alt="Logo Cancha 9" class="logo"/>
+      <span class="brand">Cancha 9</span>
+    </nav>
+    <div class="hero-content">
+      <h1>Jugá sin complicaciones</h1>
+      <p>Conectamos jugadores para que nunca te falte equipo.</p>
+      <a href="#registro" class="cta-button">¡Quiero probarla!</a>
     </div>
   </header>
 
-  <main>
-    <section class="intro">
-      <h2>¿Qué es Cancha 9?</h2>
-      <p>Una app para organizar partidos de fútbol, pádel, tenis o vóley de forma simple. Si faltan jugadores, te ayudamos a encontrarlos.</p>
-    </section>
+  <section class="features">
+    <div class="feature">
+      <h2>✔ Organizá tus partidos fácilmente</h2>
+      <p>Reservá canchas y armá equipos sin depender del grupo de WhatsApp.</p>
+    </div>
+    <div class="feature">
+      <h2>✔ Encontrá jugadores al instante</h2>
+      <p>Conectate con personas que también quieren jugar en tu zona.</p>
+    </div>
+    <div class="feature">
+      <h2>✔ Reducí las cancelaciones</h2>
+      <p>Si alguien se baja, Cancha 9 encuentra reemplazo automáticamente.</p>
+    </div>
+  </section>
 
-    <section class="problema">
-      <h2>El Problema</h2>
-      <p>Muchas veces los partidos se cancelan por no juntar gente suficiente. Organizar por WhatsApp es un lío y lleva tiempo.</p>
-    </section>
-
-    <section class="solucion">
-      <h2>Nuestra Solución</h2>
-      <ul>
-        <li>Completá tu equipo con jugadores disponibles en la zona.</li>
-        <li>Reducí cancelaciones para vos y para el complejo.</li>
-        <li>Organizá todo desde una sola app.</li>
-      </ul>
-    </section>
-
-    <section class="cta">
-      <h2>¿Te gustaría probarla?</h2>
-      <p>Dejanos tu contacto y sé de los primeros en usar Cancha 9.</p>
-      <button>¡Quiero probarla!</button>
-    </section>
-  </main>
+  <section class="registro" id="registro">
+    <h2>Sumate a Cancha 9</h2>
+    <p>Dejanos tu contacto y sé parte de los primeros en usar la app.</p>
+    <form>
+      <input type="text" placeholder="Tu nombre" required />
+      <input type="email" placeholder="Tu correo electrónico" required />
+      <button type="submit">Registrarme</button>
+    </form>
+  </section>
 
   <footer>
-    <p>&copy; 2025 Cancha 9 - Proyecto académico UNS</p>
+    <p>&copy; 2025 Cancha 9 — Proyecto académico para la UNS</p>
   </footer>
 </body>
 </html>
