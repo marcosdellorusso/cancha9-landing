@@ -1,4 +1,5 @@
 
+/* --- CSS ORIGINAL --- */
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -44,7 +45,8 @@ body {
   position: relative;
   text-align: center;
   z-index: 2;
-  padding-bottom: 5rem;
+  padding: 1rem;
+  padding-top: 3rem;
 }
 
 .hero-content h1 {
@@ -119,4 +121,56 @@ footer {
   padding: 2rem;
   font-size: 0.9rem;
   background-color: #f0f0f0;
+}
+
+/* --- MEDIA QUERIES PARA RESPONSIVE --- */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo {
+    height: 40px;
+    margin-bottom: 0.5rem;
+  }
+
+  .brand {
+    font-size: 1.2rem;
+  }
+
+  .hero {
+    height: auto;
+    padding-bottom: 2rem;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .cta-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+  }
+
+  .features {
+    padding: 2rem 1rem;
+  }
+
+  .registro {
+    padding: 2rem 1rem;
+  }
+
+  .registro input {
+    width: 90%;
+  }
+
+  .registro button {
+    width: 90%;
+    font-size: 1rem;
+  }
 }
